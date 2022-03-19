@@ -1,0 +1,18 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "RunTerminalCommands",
+  "description": "Run Terminal Commands",
+  "developer_name": "Akanok",
+  "icon": "icon.png",
+  "options": {
+    "query_debounce": 0.05
+  },
+  "preferences": [
+    {
+      "id": "exec_kw",
+      "type": "keyword",
+      "name": "Exec",
+      "default_value": "_"
+    }
+  ]
+}
